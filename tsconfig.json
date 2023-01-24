@@ -7,13 +7,14 @@
     "strict": true,
     "esModuleInterop": true,
     "outDir": "dist",
-    "baseUrl": "./",
+    "baseUrl": ".",
+    "jsx": "react",
+    "types": ["node"],
     "paths": {
-      "@/*": [
-        "src/*"
-      ]
+      "@/*": ["./src/*"]
     }
   },
   "include": ["src/**/*"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "references": [{ "path": "./tsconfig.node.json" }]
 }
