@@ -16,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/hhk9292/frontend-study/issues"
   },
-  "homepage": "https://github.com/hhk9292/frontend-study#readme"
+  "homepage": "https://github.com/hhk9292/frontend-study#readme",
+  "packageManager": "yarn@3.3.1"
 }
