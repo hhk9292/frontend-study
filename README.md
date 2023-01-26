@@ -9,3 +9,5 @@ v16.16.0 버전으로 설치하면 에러가 사라진다.
 https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md#experimental-esm-loader-hooks-api 이거때문인거 같은데
 
 근데 node v16.17 + yarn v.3.2.2 에서는 에러가 안난다고는 한다.
+
+node 버전, yarn 버전, .yarn/releases 버전, package.json > packageManger 버전 등을 확인하자
