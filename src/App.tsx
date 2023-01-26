@@ -1,12 +1,14 @@
 import React from 'react';
-import './App.scss';
-import MovieList from '@/views/MovieList';
+
+import { BrowserRouter } from 'react-router-dom';
+import Router from '@/components/Router';
 
 const App = () => {
   return (
     <div className="app">
-      App
-      <MovieList />
+      <BrowserRouter>
+        <Router />
+      </BrowserRouter>
     </div>
   );
 };
