@@ -1,7 +1,12 @@
 import React from 'react';
+import { BrowserRouter, useRoutes } from 'react-router-dom';
 
-import { BrowserRouter } from 'react-router-dom';
-import Router from '@/components/Router';
+import routes from '@/routes';
+
+const Router = () => {
+  const router = useRoutes(routes);
+  return <>{router}</>;
+};
 
 const App = () => {
   return (
