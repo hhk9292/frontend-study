@@ -11,7 +11,8 @@
     "jsx": "react",
     "types": ["node"],
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["src/*"],
+      "@keyboard/*": ["src/features/keyboard/*"]
     }
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"],
