@@ -6,4 +6,5 @@ dist-ssr
 *.local
 .vscode
 .yarn
-.yarnrc.*
+.yarnrc.yml
+yarn-error.log
