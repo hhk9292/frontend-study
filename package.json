@@ -19,7 +19,7 @@
     "url": "https://github.com/hhk9292/frontend-study/issues"
   },
   "homepage": "https://github.com/hhk9292/frontend-study#readme",
-  "packageManager": "yarn@3.3.1",
+  "packageManager": "yarn@3.6.1",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
