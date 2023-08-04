@@ -12,15 +12,18 @@ https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md#experim
 
 node 버전, yarn 버전, .yarn/releases 버전, package.json > packageManger 버전 등을 확인하자
 
-
 ## Install
+
 ```bash
 yarn set version berry
 yarn install
+yarn dlx @yarnpkg/sdks vscode
 ```
+
 > yarnrc.yml 파일이 있을 경우 삭제하고 실행
 
 ## Getting Started
+
 ```bash
 yarn dev
 ```
