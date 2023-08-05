@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import './style.css'
+
 import KeyboardRow1 from '@keyboard/containers/KeyboardRow1';
 import KeyboardRow2 from '@keyboard/containers/KeyboardRow2';
 import KeyboardRow3 from '@keyboard/containers/KeyboardRow3';
@@ -82,13 +84,14 @@ const Keyboard = () => {
   };
 
   return (
-    <div>
-      <KeyboardRow5 onClick={onClickHandler} />
-      <KeyboardRow4 onClick={onClickHandler} />
-      <KeyboardRow3 onClick={onClickHandler} />
-      <KeyboardRow2 onClick={onClickHandler} />
-      <KeyboardRow1 onClick={onClickHandler} />
-
+    <div className="container">
+      <div className="keyboard_wrapper">
+        <KeyboardRow5 onClick={onClickHandler} />
+        <KeyboardRow4 onClick={onClickHandler} />
+        <KeyboardRow3 onClick={onClickHandler} />
+        <KeyboardRow2 onClick={onClickHandler} />
+        <KeyboardRow1 onClick={onClickHandler} />
+      </div>
       <input type="text" value={text} readOnly />
     </div>
   );

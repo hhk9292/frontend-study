@@ -1,13 +1,15 @@
-.keyboard_button_wrapper {
+.keyboard_row {
   display: flex;
-  background-color: gray;
+}
+
+.keyboard_row + .keyboard_row {
+  margin-top: 4px;
 }
 
 .keyboard_button {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  border: 2px solid gray;
   border-radius: 4px;
 
   width: 100%;
@@ -18,8 +20,6 @@
   }
 }
 
-.keyboard_row {
-  display: flex;
-  width: 100%;
-  background-color: gray;
+.keyboard_button_wrapper + .keyboard_button_wrapper {
+  margin-left: 4px;
 }

@@ -11,10 +11,10 @@ type Props = {
 };
 
 const BASE_WIDTH = 48;
-const BASE_HEIGHT = BASE_WIDTH;
+const BASE_HEIGHT = BASE_WIDTH - 4;
 
 const KeyButton = ({ size, text, upperText, onClick }: Props) => {
-  const width = size * BASE_WIDTH;
+  const width = size * BASE_WIDTH - 4;
 
   const onClickHandler = () => {
     onClick({
