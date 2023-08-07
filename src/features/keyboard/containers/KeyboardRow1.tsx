@@ -16,7 +16,7 @@ const KeyboardRow1 = ({ onClick }: Props) => {
       <KeyButton text="Alt" size={1.25} onClick={onClick} />
       <KeyButton text="Space" size={6.25} onClick={onClick} />
       <KeyButton text="Alt" size={1.25} onClick={onClick} />
-      <KeyButton text="Fn" size={1.25} onClick={onClick} />
+      <KeyButton text="Fn" size={1.25} onClick={() => void {}} />
       <KeyButton text="-" size={1.25} onClick={() => void {}} />
       <KeyButton text="Ctrl" size={1.25} onClick={onClick} />
     </KeyRow>

@@ -1,0 +1,11 @@
+.container {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.keyboard_wrapper {
+  display: inline-block;
+  background-color: #808080;
+  padding: 2px;
+  margin-bottom: 48px;
+}
